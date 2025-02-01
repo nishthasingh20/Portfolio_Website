@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import { FloatingDock } from "@/components/ui/FloatingDock";
 import { title } from "process";
+import Grid from "@/components/Grid";
 import { FaHome, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 import { MdEmail } from "react-icons/md";
@@ -17,6 +18,7 @@ export default function Home() {
           {title: 'Gmail', icon: <MdEmail />, href: '/'}
         ]}/>
         <Hero />
+        <Grid />
       </div>
     </main>
     
