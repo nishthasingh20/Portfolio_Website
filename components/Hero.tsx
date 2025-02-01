@@ -2,6 +2,7 @@ import React from 'react';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
+import { TiArrowMaximise } from 'react-icons/ti';
 
 const Hero = () => {
     return (
