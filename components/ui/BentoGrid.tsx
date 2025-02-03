@@ -51,9 +51,16 @@ export const BentoGridItem = ({
       }}
       >
 
+      <div className={`${id === 1} && 'flex justify-center h-full`}>
+        <div className={cn(
+          titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
+        )}>
+        </div>
+      </div>
+
       <div className="group-hover/bento:translate-x-2 transition duration-200">
         <div
-          className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
+          className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
           {title}
         </div>
         <div
@@ -61,6 +68,34 @@ export const BentoGridItem = ({
           {description}
         </div>
       </div>
+
+        {id === 1 && (
+          <>
+            <div className="flex gap-5 lg:gap-10 w-fit absolute -left--1 top-1 lg:-left--1">
+              <div className="flex flex-col gap-0.5 lg: gap-3">
+                {['CSS', 'HTML', 'JavaScript', 'TypeSript'].map((item) => (
+                  <span key = {item} className="py-3 lg:py-3 lg:px-3 px-3 text-xs lg:text-base opacity-100 lg:opacity-100 rounded-lg text-center bg-[#10132E] border border-white">
+                    {item}
+                  </span>
+                ))}
+              </div>
+              <div className="flex flex-col gap-0.5 lg: gap-3">
+                {['Taiwlind CSS', 'C++/C', 'Python', 'Java'].map((item) => (
+                  <span key = {item} className="py-3 lg:py-3 lg:px-3 px-3 text-xs lg:text-base opacity-100 lg:opacity-100 rounded-lg text-center bg-[#10132E] border border-white">
+                    {item}
+                  </span>
+                ))}
+              </div>
+              <div className="flex flex-col gap-0.5 lg: gap-3">
+                {['NextJS', 'ReactJS', 'Machine Learning'].map((item) => (
+                  <span key = {item} className="py-3 lg:py-3 lg:px-3 px-3 text-xs lg:text-base opacity-100 lg:opacity-100 rounded-lg text-center bg-[#10132E] border border-white">
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </>
+        )}
     </div>)
   );
 };

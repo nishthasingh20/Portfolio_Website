@@ -16,7 +16,7 @@ export const items = [
       id: 1,
       title: "My Tech Stack",
       description: "",
-      className: "lg:col-span-1.5 md:col-span-2 md:row-span-1 lg:min-h-[20vh]",
+      className: "lg:col-span-1.5 md:col-span-2 md:row-span-1 lg:min-h-[20vh] z-index-50",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
       img: "/b1.svg",
