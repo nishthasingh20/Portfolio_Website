@@ -5,6 +5,7 @@ import Grid from "@/components/Grid";
 import { FaHome, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 import { MdEmail } from "react-icons/md";
+import RecentProjects from "@/components/RecentProjects";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         ]}/>
         <Hero />
         <Grid />
+        <RecentProjects/>
       </div>
     </main>
     
