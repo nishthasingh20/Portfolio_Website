@@ -24,6 +24,25 @@ export const items = [
     },
   ];
   
+  export const projects = [
+    {
+      id: 1,
+      title: "QR Code Generator",
+      des: "Get QR Code for any URL or text within seconds!",
+      img: "qr_interface.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "https://github.com/nishthasingh20/QR_Generator",
+    },
+    {
+      id: 2,
+      title: "Plant Disease Prediction Model",
+      des: "Predict the disease in plants using Machine Learning",
+      img: "/p2.svg",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "https://github.com/nishthasingh20/PlantDiseasePrediction_Model"
+    },
+  ];
+
   export const socialMedia = [
     {
       id: 1,
