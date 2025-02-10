@@ -6,9 +6,9 @@ import { MdEmail } from "react-icons/md";
 export const navItems = [
     { name: "Home", link: "#about", icon: React.createElement(FaHome)},
     { name: "Projects",link: "#projects", icon: React.createElement(GrProjects)},
-    { name: "Github", link: "#github", icon: React.createElement(FaGithubSquare)},
-    { name: "Linkedin", link: "#linkedin", icon: React.createElement(FaLinkedin), },
-    { name: "Gmail", link: "#gmail", icon: React.createElement(MdEmail) },
+    { name: "Github", link: "https://github.com/nishthasingh20", icon: React.createElement(FaGithubSquare)},
+    { name: "Linkedin", link: "https://linkedin.com/in/nishtha-singh-510871318", icon: React.createElement(FaLinkedin), },
+    { name: "Gmail", link: "singhnishtha206@gmail.com", icon: React.createElement(MdEmail) },
   ];
   
   export const gridItems = [
