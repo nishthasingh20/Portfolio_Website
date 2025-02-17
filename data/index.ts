@@ -27,17 +27,17 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "QR Code Generator",
-      des: "Get QR Code for any URL or text within seconds!",
-      img: "qr_interface.png",
+      title: "CrytoPulse",
+      des: "Invest Smart, Live Rich. A CryptoCurrency Tracker website",
+      img: "crypto_bg.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/nishthasingh20/QR_Generator",
+      link: "https://github.com/nishthasingh20/Crypto-Screener",
     },
     {
       id: 2,
       title: "Plant Disease Prediction Model",
       des: "Predict the disease in plants using Machine Learning",
-      img: "/p2.svg",
+      img: "plant_bg.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/nishthasingh20/PlantDiseasePrediction_Model"
     },
