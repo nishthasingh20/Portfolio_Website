@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/tooltip';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import Image from 'next/image';
 import { FaTools } from 'react-icons/fa';
 
