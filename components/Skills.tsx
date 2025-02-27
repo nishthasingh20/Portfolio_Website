@@ -11,32 +11,23 @@ interface ImageData {
 }
 
 const images: ImageData[] = [
-  { src: '/assests/skills/c++.webp', alt: 'C++', tooltip: 'C++' },
-  { src: '/assests/skills/css.webp', alt: 'CSS', tooltip: 'CSS' },
-  { src: '/assests/skills/fastapi.webp', alt: 'FastAPI', tooltip: 'FastAPI' },
-  { src: '/assests/skills/figma.webp', alt: 'Figma', tooltip: 'Figma' },
-  { src: '/assests/skills/firebase.webp', alt: 'Firebase', tooltip: 'Firebase' },
-  { src: '/assests/skills/git.webp', alt: 'Git', tooltip: 'Git' },
-  { src: '/assests/skills/github.webp', alt: 'GitHub', tooltip: 'GitHub' },
-  { src: '/assests/skills/html.webp', alt: 'HTML', tooltip: 'HTML' },
-  { src: '/assests/skills/js.webp', alt: 'JavaScript', tooltip: 'JavaScript' },
-  { src: '/assests/skills/mongoDB.webp', alt: 'MongoDB', tooltip: 'MongoDB' },
-  { src: '/assests/skills/mysql.webp', alt: 'MySQL', tooltip: 'MySQL' },
-  { src: '/assests/skills/next.webp', alt: 'Next.js', tooltip: 'Next.js' },
-  { src: '/assests/skills/nodejs.webp', alt: 'Node.js', tooltip: 'Node.js' },
-  { src: '/assests/skills/photoshop.webp', alt: 'Photoshop', tooltip: 'Photoshop' },
-  { src: '/assests/skills/postgre.webp', alt: 'PostgreSQL', tooltip: 'PostgreSQL' },
-  { src: '/assests/skills/react.webp', alt: 'React', tooltip: 'React' },
-  { src: '/assests/skills/replit.webp', alt: 'Replit', tooltip: 'Replit' },
-  { src: '/assests/skills/typescript.webp', alt: 'TypeScript', tooltip: 'TypeScript' },
-  { src: '/assests/skills/ubuntu.webp', alt: 'Ubuntu', tooltip: 'Ubuntu' },
-  { src: '/assests/skills/vercel.webp', alt: 'Vercel', tooltip: 'Vercel' },
-  { src: '/assests/skills/web3js.webp', alt: 'Web3.js', tooltip: 'Web3.js' },
-  { src: '/assests/skills/vite.webp', alt: 'Vite', tooltip: 'Vite' },
-  { src: '/assests/skills/tailwind.webp', alt: 'Tailwind CSS', tooltip: 'Tailwind CSS' },
-  { src: '/assests/skills/solidity.webp', alt: 'Solidity', tooltip: 'Solidity' },
-  { src: '/assests/skills/python.webp', alt: 'Python', tooltip: 'Python' },
-  { src: '/assests/skills/netlify.webp', alt: 'Netlify', tooltip: 'Netlify' },
+  { src: '/assets/skills/c++.webp', alt: 'C++', tooltip: 'C++' },
+  { src: '/assets/skills/css.webp', alt: 'CSS', tooltip: 'CSS' },
+  { src: '/assets/skills/figma.webp', alt: 'Figma', tooltip: 'Figma' },
+  { src: '/assets/skills/git.webp', alt: 'Git', tooltip: 'Git' },
+  { src: '/assets/skills/github_white.webp', alt: 'GitHub', tooltip: 'GitHub' },
+  { src: '/assets/skills/html.webp', alt: 'HTML', tooltip: 'HTML' },
+  { src: '/assets/skills/js.webp', alt: 'JavaScript', tooltip: 'JavaScript' },
+  { src: '/assets/skills/mysql.webp', alt: 'MySQL', tooltip: 'MySQL' },
+  { src: '/assets/skills/nextjs.webp', alt: 'Next.js', tooltip: 'Next.js' },
+  { src: '/assets/skills/nodejs.webp', alt: 'Node.js', tooltip: 'Node.js' },
+  { src: '/assets/skills/react.webp', alt: 'React', tooltip: 'React' },
+  { src: '/assets/skills/typescript.webp', alt: 'TypeScript', tooltip: 'TypeScript' },
+  { src: '/assets/skills/ubuntu.webp', alt: 'Ubuntu', tooltip: 'Ubuntu' },
+  { src: '/assets/skills/vercel_white.webp', alt: 'Vercel', tooltip: 'Vercel' },
+  { src: '/assets/skills/tailwind.webp', alt: 'Tailwind CSS', tooltip: 'Tailwind CSS' },
+  { src: '/assets/skills/python.webp', alt: 'Python', tooltip: 'Python' },
+  { src: '/assets/skills/photoshop.webp', alt: 'Photoshop', tooltip: 'Photoshop' },
 ];
 
 const HoverImageComponent: React.FC = () => {
@@ -44,11 +35,11 @@ const HoverImageComponent: React.FC = () => {
 
   return (
     <TooltipProvider delayDuration={0}>
-      <div className='mt-20'>
-        <div className='flex justify-center items-center'>
-          <FaTools className='text-2xl mr-2' />
-          <h1 className='text-center'> | My Skills |</h1>
-        </div>
+      <div className='mt-20' id="skills">
+        <h4 className="heading">
+          My {' '}
+          <span className="text-purple">Tech Stack</span>
+        </h4>
         
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-y-14 gap-x-14 justify-items-center px-2 py-2 mt-10">
           {images.map((image, index) => (
