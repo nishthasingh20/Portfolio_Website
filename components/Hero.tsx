@@ -34,12 +34,17 @@ const Hero = () => {
                         Greetings, I'm a passionate web developer with a keen interest in building web applications. I'm also a machine learning enthusiast. I possess problem solving skills which help me tackle data structures and algortihms problems. 
                         I'm eager to learn new technologies and frameworks and get opportunities to grow further in my career.
                     </p>
-
-                    <a href="#about">
-                        <MagicButton 
-                        title="Show my work"
-                        position="relative"/>
-                    </a>
+                    
+                    <div className='flex space-x-4'>
+                        <a href="#about">
+                            <MagicButton 
+                            title="Show my work"
+                            position="relative"/>
+                        </a>
+                        <a href="C:\Users\DELL\Downloads\NishthaSingh_Resume.pdf" download="NishthaSingh_Resume.pdf"> 
+                            <MagicButton title="Download Resume" position="relative" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
