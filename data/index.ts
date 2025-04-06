@@ -18,7 +18,7 @@ export const navItems = [
       des: "Invest Smart, Live Rich. A CryptoCurrency Tracker website",
       img: "crypto_bg.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/nishthasingh20/Crypto-Screener",
+      link: "https://crypto-pulse-delta.vercel.app/",
     },
     {
       id: 2,
