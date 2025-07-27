@@ -5,6 +5,8 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
 import { navItems } from "@/data";
 import HoverImageComponent from "@/components/Skills";
+import { CardHoverEffectDemo } from "@/components/Experience";
+import ContactMe from "@/components/ContactMe";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <Grid />
         <HoverImageComponent />
         <RecentProjects/>
+        <CardHoverEffectDemo />
+        <ContactMe />
       </div>
     </main>
     

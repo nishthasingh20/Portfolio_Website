@@ -25,7 +25,7 @@ export const navItems = [
       title: "Plant Disease Prediction Model",
       des: "Predict the disease in plants using Machine Learning",
       img: "plant_bg.png",
-      iconLists: [" "],
+      iconLists: [""],
       link: "https://github.com/nishthasingh20/PlantDiseasePrediction_Model"
     },
   ];
