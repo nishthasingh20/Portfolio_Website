@@ -17,7 +17,7 @@ export const navItems = [
       title: "CrytoPulse",
       des: "Invest Smart, Live Rich. A CryptoCurrency Tracker website",
       img: "crypto_bg.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", ],
       link: "https://crypto-pulse-delta.vercel.app/",
     },
     {
@@ -25,7 +25,7 @@ export const navItems = [
       title: "Plant Disease Prediction Model",
       des: "Predict the disease in plants using Machine Learning",
       img: "plant_bg.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: [" "],
       link: "https://github.com/nishthasingh20/PlantDiseasePrediction_Model"
     },
   ];

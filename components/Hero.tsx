@@ -21,7 +21,7 @@ const Hero = () => {
 
             <div className="flex justify-center relative my-20 z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                    <h2 className="uppercase tracking-widest text-s text-center text-blue-100 max-w-80">
+                    <h2 className="uppercase tracking-widest text-xl text-center text-blue-100 max-w-80">
                         Hello I'm <span style={{ fontWeight: 'bold' }}>Nishtha Singh</span>
                     </h2>
 
@@ -36,13 +36,13 @@ const Hero = () => {
                     </p>
                     
                     <div className='flex space-x-4'>
-                        <a href="#about">
+                        <a href="#projects">
                             <MagicButton 
                             title="Show my work"
                             position="relative"/>
                         </a>
-                        <a href="C:\Users\DELL\Downloads\NishthaSingh_Resume.pdf" download="NishthaSingh_Resume.pdf"> 
-                            <MagicButton title="Download Resume" position="relative" />
+                        <a href="https://drive.google.com/file/d/1wn5uRLj_FHZ7YUur3M1oa2KmCuE_Hvjf/view?usp=sharing" target='_blank'> 
+                            <MagicButton title="View Resume" position="relative" />
                         </a>
                     </div>
                 </div>
